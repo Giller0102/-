@@ -1,0 +1,291 @@
+.promo {
+    padding-top: 79px;
+    padding-bottom: 84px;
+}
+
+.promo .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promo_content_title {
+    width: 477px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 43px;
+    color: #fff;
+    margin-bottom: 53px;
+}
+
+.promo_content_title span {
+    color: #CFA55B;
+}
+
+.promo_text {
+    width: 700px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.promo_1_text {
+    margin-bottom: 29px;
+}
+
+.promo_2_text {
+    width: 660px;
+}
+
+.promo_card {
+    width: 447px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(207, 165, 91, 0.5);
+    border-radius: 10px;
+    padding-top: 43px;
+    padding-left: 35px;
+    padding-bottom: 35px;
+}
+
+.promo_card_title {
+    width: 323px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    color: #424242;
+    margin-bottom: 23px;
+}
+
+.promo_card_text {
+    width: 361px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #424242;
+    margin-bottom: 36px;
+}
+
+.promo_card_list {
+    margin-bottom: 24px;
+}
+
+.promo_list_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 300px;
+}
+
+.promo_list_item p {
+    width: 227px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #424242;
+}
+
+.promo_list_item p span {
+    color: #CFA55B;
+}
+
+.promo_btn button {
+    display: block;
+    width: 378px;
+    height: 72px;
+    background: #CFA55B;
+    box-shadow: 0px 4px 25px rgba(207, 165, 91, 0.5);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.promo_btn a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 65px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1440px) {
+    .container {
+        width: 1190px;
+        overflow: hidden;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 1080px;
+        overflow: hidden;
+    }
+    .promo_text {
+        width: 555px;
+    }
+}
+
+
+@media screen and (max-width: 1140px) {
+    .container {
+        max-width: 944px;
+        overflow: hidden;
+    }
+    .promo_text {
+        width: 491px;
+        font-size: 16px;
+    }
+    .promo_card_title {
+        width: 300px;
+        font-size: 22px;
+    }
+    .promo_card_text {
+        width: 340px;
+        font-size: 13px;
+    }
+    .promo_list_item p {
+        width: 215px;
+        font-size: 13px;
+    }
+    .promo_list_item {
+        width: 267px;
+    }
+    .promo_card {
+        width: 400px;
+    }
+    .promo_btn button {
+        width: 340px;
+        height: 64px;
+    }
+    .promo_btn a {
+        font-size: 20px;
+        line-height: 60px;
+    }
+    .promo .container {
+        display: block;
+    }
+    .promo_content_title {
+        margin: 0 auto;
+        margin-bottom: 53px;
+        width: none;
+        text-align: center;
+    }
+    .promo_text {
+        width: 680px;
+        margin: 0 auto;
+        margin-bottom: 70px;
+        font-size: 17px;
+        text-align: center;
+    } 
+    .promo_1_text {
+        margin-bottom: 20px;
+    }
+    .promo_card {
+        margin: 0 auto;
+    }  
+    .promo {
+        padding-bottom: 111px;
+    }
+    .promo_btn button {
+        width: 315px;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .container {
+        max-width: 768px;
+        overflow: hidden;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 650px;
+        overflow: hidden;
+    }
+    .promo_text {
+        width: 620px;
+    }
+}
+
+
+@media screen and (max-width: 659px) {
+    .container {
+        max-width: 540px;
+        overflow: hidden;
+    }
+    .promo_text {
+        width: 520px;
+    }
+}
+
+
+@media screen and (max-width: 540px) {
+    .container {
+        width: 420px;
+        overflow: hidden;
+        font-size: 16px;
+    }
+    .promo_text {
+        width: 390px;
+    }
+    .promo_card {
+        width: 353px;
+    }
+    .promo_card_text {
+        width: 320px;
+    }
+    .promo_content_title {
+        width: 400px;
+        font-size: 33px;
+    }
+}
+
+
+@media screen and (max-width: 420px) {
+    .container {
+        max-width: 340px;
+        overflow: hidden;
+    }
+    .promo_text {
+        width: 300px;
+        font-size: 15px;
+    }
+    .promo_content_title {
+        width: 320px;
+        font-size: 28px;
+    }
+    .promo_card {
+        width: 300px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .promo_card_title {
+        width: 300px;
+        font-size: 21px;
+    }
+    .promo_card_text {
+        width: 290px;
+        font-size: 12px;
+    }
+    .promo_btn button {
+        width: 290px;
+        height: 58px;
+    }
+    .promo_btn a {
+        font-size: 18px;
+        line-height: 55px;
+    }
+}

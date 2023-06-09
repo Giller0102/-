@@ -1,0 +1,18 @@
+@import url(blocks/first_screen.css);
+@import url(blocks/section_advantages.css);
+@import url(blocks/section_promo.css);
+@import url(blocks/catalog.css);
+@import url(blocks/section_consultation.css);
+@import url(blocks/footer.css);
+
+.first_screen {
+    background: url(../img/bg/Rectangle.png) center center/cover no-repeat;
+}
+
+.promo {
+    background: url(../img/bg/Rectangle\ 2.png) center center/cover no-repeat;
+}
+
+.consultation {
+    background: url(../img/bg/Rectangle\ 3.png) center center/cover no-repeat;
+}
