@@ -1,0 +1,133 @@
+/*TASK 1: Рамка с тенью при наведении на заголовки */
+
+h3 {
+  transition: all 0.5s ease;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+h3:hover {
+  border: 2px solid #468;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+  border-radius: 8px;
+}
+
+/* TASK 2: Волк гонится за зайцем */
+
+.chase-scene {
+  position: relative;
+  height: 300px;
+  border: 1px dashed #ccc;
+  margin: 20px;
+}
+
+.hare {
+  position: absolute;
+  left: 300px;
+  top: 50px;
+  transition: 1s;
+}
+
+.wolf {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  transition: transform 2s ease-in-out;
+}
+
+.chase-scene:hover .wolf {
+  transform: translate(250px, 0);
+}
+
+.chase-scene:hover .hare {
+  transform: translate(50px, 0);
+}
+
+/* TASK 3: Винни-Пух превращается в поросенка */
+
+.transformation {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+.character {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 1.5s ease, transform 1.5s ease;
+}
+
+.character img {
+  width: 100%;
+  height: auto;
+}
+
+.vini {
+  opacity: 1;
+  transform: scale(1);
+  z-index: 2;
+}
+
+.pig {
+  opacity: 0;
+  transform: scale(0.5);
+  z-index: 1;
+}
+
+.transformation:hover .vini {
+  opacity: 0;
+  transform: scale(0.5);
+}
+
+.transformation:hover .pig {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* TASK 4: 3Д-превращение волка в зайца */
+
+.transformation-3d {
+  width: 300px;
+  height: 300px;
+  margin: 50px auto;
+  perspective: 1000px;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 2s;
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+}
+
+.front, .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.front {
+  transform: rotateY(0deg);
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.front img, .back img {
+  max-width: 100%;
+  max-height: 100%;
+}
